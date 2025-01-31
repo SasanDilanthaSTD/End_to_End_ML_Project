@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: RedWineQualityPrediction
+Version: 0.0.0
+Summary: A small package to predict the quality of red wine
+Home-page: https://github.com/SasanDilanthaSTD/End_to_End_ML_Project
+Author: SasanDilanthaSTD
+Author-email: sasandilantha12@gmail.com
+Project-URL: Bug Tracker, https://github.com/SasanDilanthaSTD/End_to_End_ML_Project/issues
+License-File: LICENSE
+
+##### If finish the folder structuring then create new conda enviroment
+
+>- create 
+
+```bash
+conda create -n mlproj python=3.8 -y
+```
+
+>- activate 
+
+```bash
+conda conda activate mlproj
+```
+
+>- deactivate
+
+```bash
+conda conda deactivate
+```
+
+##### After exicute requirements.txt file
+```bash
+pip install -r requirements.txt
+```

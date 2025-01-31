@@ -1,0 +1,1 @@
+from src.RedWineQualityPrediction.config import configuration as cfg
