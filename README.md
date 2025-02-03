@@ -22,3 +22,8 @@ conda conda deactivate
 ```bash
 pip install -r requirements.txt
 ```
+##### If you dont't have dataset then download it
+>- Dataset link 
+```bash
+https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/data
+```
