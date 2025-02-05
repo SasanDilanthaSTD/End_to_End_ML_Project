@@ -1,2 +1,34 @@
-[2025-02-03 17:17:25,123: INFO: main: This is a custom log message!]
-[2025-02-03 17:26:59,572: INFO: main: Change the logging code in src/RedWineQualityPrediction constructor..]
+[2025-02-05 22:06:08,603: INFO: main: >>>>>>>>> Stage 01: Data Ingestion started <<<<<<<<<]
+[2025-02-05 22:06:08,606: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-05 22:06:08,607: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-05 22:06:08,611: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-05 22:06:08,612: INFO: common: Directory created at :: artifacts]
+[2025-02-05 22:06:08,613: INFO: common: Directory created at :: artifacts/data_ingestion]
+[2025-02-05 22:06:10,357: INFO: data_ingestion: Downloaded file: artifacts/data_ingestion/data.zip with folowing infor: 
+ Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2622:2E4589:3D9EE3:3F8BA0:67A38CA9
+Accept-Ranges: bytes
+Date: Wed, 05 Feb 2025 16:36:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsss1830078-SIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1738773370.676282,VS0,VE363
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cb0d101164bb44d21570d7e2a9308c096f7f0792
+Expires: Wed, 05 Feb 2025 16:41:10 GMT
+Source-Age: 0
+
+]
+[2025-02-05 22:06:10,466: INFO: main: >>>>>>>>> Stage 01: Data Ingestion completed <<<<<<<<<]

@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/SasanDilanthaSTD/End_to_End_ML_Project/raw/refs/heads/main/research/dataset/red-wine-quality-cortez-et-al-2009.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
