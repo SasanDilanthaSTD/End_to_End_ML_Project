@@ -1,5 +1,5 @@
 from RedWineQualityPrediction.constanst import *
-from RedWineQualityPrediction.entity.config_entity import DataIngstionConfig
+from RedWineQualityPrediction.entity.config_entity import DataIngstionConfig, DataValidationConfig
 from RedWineQualityPrediction.utils.common import read_yaml, create_derectories
 
 class ConfigurationManager:
@@ -26,4 +26,17 @@ class ConfigurationManager:
             source_URL=config.source_URL,
             local_data_file=config.local_data_file,
             unzip_dir=config.unzip_dir
+        )
+        
+    def data_validation_config(self) -> DataValidationConfig:
+        confing = self.config.data_validation
+        schema = self.schema.COLUMNS
+        
+        create_derectories([confing.root_dir])
+        
+        return DataValidationConfig(
+            root_dir=confing.root_dir,
+            STATUS_FILE=confing.STATUS_FILE,
+            unzip_dir=confing.unzip_data_dir,
+            all_schema=schema
         )

@@ -32,3 +32,78 @@ Source-Age: 0
 
 ]
 [2025-02-05 22:06:10,466: INFO: main: >>>>>>>>> Stage 01: Data Ingestion completed <<<<<<<<<]
+[2025-02-06 13:58:28,641: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 13:58:28,644: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 13:58:28,650: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 13:58:28,652: INFO: common: Directory created at :: artifacts]
+[2025-02-06 13:58:28,654: INFO: common: Directory created at :: artifacts/data_validation]
+[2025-02-06 13:59:53,162: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 13:59:53,167: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 13:59:53,174: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 13:59:53,176: INFO: common: Directory created at :: artifacts]
+[2025-02-06 13:59:53,178: INFO: common: Directory created at :: artifacts/data_validation]
+[2025-02-06 13:59:53,189: INFO: 3451669464: Data validation success in :: fixed acidity]
+[2025-02-06 13:59:53,191: INFO: 3451669464: Data validation success in :: volatile acidity]
+[2025-02-06 13:59:53,193: INFO: 3451669464: Data validation success in :: citric acid]
+[2025-02-06 13:59:53,195: INFO: 3451669464: Data validation success in :: residual sugar]
+[2025-02-06 13:59:53,197: INFO: 3451669464: Data validation success in :: chlorides]
+[2025-02-06 13:59:53,198: INFO: 3451669464: Data validation success in :: free sulfur dioxide]
+[2025-02-06 13:59:53,200: INFO: 3451669464: Data validation success in :: total sulfur dioxide]
+[2025-02-06 13:59:53,201: INFO: 3451669464: Data validation success in :: density]
+[2025-02-06 13:59:53,202: INFO: 3451669464: Data validation success in :: pH]
+[2025-02-06 13:59:53,203: INFO: 3451669464: Data validation success in :: sulphates]
+[2025-02-06 13:59:53,204: INFO: 3451669464: Data validation success in :: alcohol]
+[2025-02-06 13:59:53,206: INFO: 3451669464: Data validation success in :: quality]
+[2025-02-06 14:20:36,005: INFO: main: >>>>>>>>> Stage 01: Data Ingestion started <<<<<<<<<]
+[2025-02-06 14:20:36,009: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 14:20:36,011: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 14:20:36,014: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 14:20:36,015: INFO: common: Directory created at :: artifacts]
+[2025-02-06 14:20:36,015: INFO: common: Directory created at :: artifacts/data_ingestion]
+[2025-02-06 14:20:37,835: INFO: data_ingestion: Downloaded file: artifacts/data_ingestion/data.zip with folowing infor: 
+ Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3144:37EB0D:CA5D39:D2FE7A:67A477DD
+Accept-Ranges: bytes
+Date: Thu, 06 Feb 2025 08:50:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsss1830024-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1738831837.263661,VS0,VE350
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e3052c4b08a185ff568feec059ce078ec51322ae
+Expires: Thu, 06 Feb 2025 08:55:37 GMT
+Source-Age: 0
+
+]
+[2025-02-06 14:20:37,944: INFO: main: >>>>>>>>> Stage 01: Data Ingestion completed <<<<<<<<<]
+[2025-02-06 14:20:37,944: INFO: main: >>>>>>>>> Stage 02: Data Validation started <<<<<<<<<]
+[2025-02-06 14:20:37,947: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 14:20:37,948: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 14:20:37,952: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 14:20:37,953: INFO: common: Directory created at :: artifacts]
+[2025-02-06 14:20:37,953: INFO: common: Directory created at :: artifacts/data_validation]
+[2025-02-06 14:20:37,965: INFO: data_validation: Data validation success in :: fixed acidity]
+[2025-02-06 14:20:37,965: INFO: data_validation: Data validation success in :: volatile acidity]
+[2025-02-06 14:20:37,965: INFO: data_validation: Data validation success in :: citric acid]
+[2025-02-06 14:20:37,965: INFO: data_validation: Data validation success in :: residual sugar]
+[2025-02-06 14:20:37,966: INFO: data_validation: Data validation success in :: chlorides]
+[2025-02-06 14:20:37,966: INFO: data_validation: Data validation success in :: free sulfur dioxide]
+[2025-02-06 14:20:37,966: INFO: data_validation: Data validation success in :: total sulfur dioxide]
+[2025-02-06 14:20:37,966: INFO: data_validation: Data validation success in :: density]
+[2025-02-06 14:20:37,967: INFO: data_validation: Data validation success in :: pH]
+[2025-02-06 14:20:37,967: INFO: data_validation: Data validation success in :: sulphates]
+[2025-02-06 14:20:37,967: INFO: data_validation: Data validation success in :: alcohol]
+[2025-02-06 14:20:37,967: INFO: data_validation: Data validation success in :: quality]
+[2025-02-06 14:20:38,072: INFO: main: >>>>>>>>> Stage 02: Data Validation completed <<<<<<<<<]
