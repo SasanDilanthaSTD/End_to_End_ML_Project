@@ -107,3 +107,112 @@ Source-Age: 0
 [2025-02-06 14:20:37,967: INFO: data_validation: Data validation success in :: alcohol]
 [2025-02-06 14:20:37,967: INFO: data_validation: Data validation success in :: quality]
 [2025-02-06 14:20:38,072: INFO: main: >>>>>>>>> Stage 02: Data Validation completed <<<<<<<<<]
+[2025-02-06 14:51:27,689: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 14:51:27,693: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 14:51:27,699: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 14:51:27,701: INFO: common: Directory created at :: artifacts]
+[2025-02-06 14:51:27,704: INFO: common: Directory created at :: artifacts/data_transformation]
+[2025-02-06 14:51:27,985: INFO: 15519314: Splied data into traing and test sets]
+[2025-02-06 14:51:27,986: INFO: 15519314: (1199, 12)]
+[2025-02-06 14:51:27,988: INFO: 15519314: (400, 12)]
+[2025-02-06 15:09:51,554: INFO: main: >>>>>>>>> Stage 01: Data Ingestion started <<<<<<<<<]
+[2025-02-06 15:09:51,558: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 15:09:51,559: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 15:09:51,563: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 15:09:51,564: INFO: common: Directory created at :: artifacts]
+[2025-02-06 15:09:51,565: INFO: common: Directory created at :: artifacts/data_ingestion]
+[2025-02-06 15:09:53,666: INFO: data_ingestion: Downloaded file: artifacts/data_ingestion/data.zip with folowing infor: 
+ Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3144:37EB0D:CA5D39:D2FE7A:67A477DD
+Accept-Ranges: bytes
+Date: Thu, 06 Feb 2025 09:39:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsss1830062-SIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1738834793.598454,VS0,VE857
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5e053d7a0a5fa785fb41b8ef307d253d8b3c1f84
+Expires: Thu, 06 Feb 2025 09:44:53 GMT
+Source-Age: 0
+
+]
+[2025-02-06 15:09:53,776: INFO: main: >>>>>>>>> Stage 01: Data Ingestion completed <<<<<<<<<]
+[2025-02-06 15:09:53,776: INFO: main: >>>>>>>>> Stage 02: Data Validation started <<<<<<<<<]
+[2025-02-06 15:09:53,776: INFO: main: >>>>>>>>> Stage 02: Data Validation completed <<<<<<<<<]
+[2025-02-06 15:09:53,776: INFO: main: >>>>>>>>> Stage 03: Data Transformation started <<<<<<<<<]
+[2025-02-06 15:09:53,776: INFO: main: >>>>>>>>> Stage 03: Data Transformation completed <<<<<<<<<]
+[2025-02-06 15:14:11,481: INFO: main: >>>>>>>>> Stage 01: Data Ingestion started <<<<<<<<<]
+[2025-02-06 15:14:11,484: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 15:14:11,485: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 15:14:11,490: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 15:14:11,491: INFO: common: Directory created at :: artifacts]
+[2025-02-06 15:14:11,492: INFO: common: Directory created at :: artifacts/data_ingestion]
+[2025-02-06 15:14:13,586: INFO: data_ingestion: Downloaded file: artifacts/data_ingestion/data.zip with folowing infor: 
+ Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59AD:124670:D0744C:D971BA:67A4846C
+Accept-Ranges: bytes
+Date: Thu, 06 Feb 2025 09:44:13 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs1050101-MRS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1738835053.886391,VS0,VE366
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7c57796069cce9d343db3ab4db0dd54f1e3a02b7
+Expires: Thu, 06 Feb 2025 09:49:13 GMT
+Source-Age: 0
+
+]
+[2025-02-06 15:14:13,696: INFO: main: >>>>>>>>> Stage 01: Data Ingestion completed <<<<<<<<<]
+[2025-02-06 15:14:13,696: INFO: main: >>>>>>>>> Stage 02: Data Validation started <<<<<<<<<]
+[2025-02-06 15:14:13,700: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 15:14:13,701: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 15:14:13,705: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 15:14:13,706: INFO: common: Directory created at :: artifacts]
+[2025-02-06 15:14:13,706: INFO: common: Directory created at :: artifacts/data_validation]
+[2025-02-06 15:14:13,718: INFO: data_validation: Data validation success in :: fixed acidity]
+[2025-02-06 15:14:13,718: INFO: data_validation: Data validation success in :: volatile acidity]
+[2025-02-06 15:14:13,718: INFO: data_validation: Data validation success in :: citric acid]
+[2025-02-06 15:14:13,719: INFO: data_validation: Data validation success in :: residual sugar]
+[2025-02-06 15:14:13,719: INFO: data_validation: Data validation success in :: chlorides]
+[2025-02-06 15:14:13,719: INFO: data_validation: Data validation success in :: free sulfur dioxide]
+[2025-02-06 15:14:13,719: INFO: data_validation: Data validation success in :: total sulfur dioxide]
+[2025-02-06 15:14:13,720: INFO: data_validation: Data validation success in :: density]
+[2025-02-06 15:14:13,720: INFO: data_validation: Data validation success in :: pH]
+[2025-02-06 15:14:13,720: INFO: data_validation: Data validation success in :: sulphates]
+[2025-02-06 15:14:13,720: INFO: data_validation: Data validation success in :: alcohol]
+[2025-02-06 15:14:13,721: INFO: data_validation: Data validation success in :: quality]
+[2025-02-06 15:14:13,824: INFO: main: >>>>>>>>> Stage 02: Data Validation completed <<<<<<<<<]
+[2025-02-06 15:14:13,824: INFO: main: >>>>>>>>> Stage 03: Data Transformation started <<<<<<<<<]
+[2025-02-06 15:14:13,828: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-06 15:14:13,829: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-06 15:14:13,833: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-06 15:14:13,833: INFO: common: Directory created at :: artifacts]
+[2025-02-06 15:14:13,834: INFO: common: Directory created at :: artifacts/data_transformation]
+[2025-02-06 15:14:14,088: INFO: data_transformation: Splied data into traing and test sets]
+[2025-02-06 15:14:14,088: INFO: data_transformation: (1199, 12)]
+[2025-02-06 15:14:14,088: INFO: data_transformation: (400, 12)]
+[2025-02-06 15:14:14,088: INFO: main: >>>>>>>>> Stage 03: Data Transformation completed <<<<<<<<<]
