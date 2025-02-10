@@ -216,3 +216,85 @@ Source-Age: 0
 [2025-02-06 15:14:14,088: INFO: data_transformation: (1199, 12)]
 [2025-02-06 15:14:14,088: INFO: data_transformation: (400, 12)]
 [2025-02-06 15:14:14,088: INFO: main: >>>>>>>>> Stage 03: Data Transformation completed <<<<<<<<<]
+[2025-02-10 23:50:25,541: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-10 23:50:25,545: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-10 23:50:25,551: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-10 23:50:25,553: INFO: common: Directory created at :: artifacts]
+[2025-02-10 23:50:25,555: INFO: common: Directory created at :: artifacts/model_trainer]
+[2025-02-10 23:52:25,340: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-10 23:52:25,344: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-10 23:52:25,351: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-10 23:52:25,353: INFO: common: Directory created at :: artifacts]
+[2025-02-10 23:52:25,355: INFO: common: Directory created at :: artifacts/model_trainer]
+[2025-02-11 00:08:04,293: INFO: main: >>>>>>>>> Stage 01: Data Ingestion started <<<<<<<<<]
+[2025-02-11 00:08:04,298: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-11 00:08:04,299: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-11 00:08:04,302: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-11 00:08:04,303: INFO: common: Directory created at :: artifacts]
+[2025-02-11 00:08:04,303: INFO: common: Directory created at :: artifacts/data_ingestion]
+[2025-02-11 00:08:05,942: INFO: data_ingestion: Downloaded file: artifacts/data_ingestion/data.zip with folowing infor: 
+ Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C606:B0E68:24E337:25DD80:67AA478C
+Accept-Ranges: bytes
+Date: Mon, 10 Feb 2025 18:38:05 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsss1830033-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1739212685.149288,VS0,VE664
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e6fcc5eb7b218bc6d216dffa1514089bb0a04a21
+Expires: Mon, 10 Feb 2025 18:43:05 GMT
+Source-Age: 0
+
+]
+[2025-02-11 00:08:06,051: INFO: main: >>>>>>>>> Stage 01: Data Ingestion completed <<<<<<<<<]
+[2025-02-11 00:08:06,051: INFO: main: >>>>>>>>> Stage 02: Data Validation started <<<<<<<<<]
+[2025-02-11 00:08:06,056: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-11 00:08:06,058: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-11 00:08:06,062: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-11 00:08:06,063: INFO: common: Directory created at :: artifacts]
+[2025-02-11 00:08:06,064: INFO: common: Directory created at :: artifacts/data_validation]
+[2025-02-11 00:08:06,074: INFO: data_validation: Data validation success in :: fixed acidity]
+[2025-02-11 00:08:06,075: INFO: data_validation: Data validation success in :: volatile acidity]
+[2025-02-11 00:08:06,075: INFO: data_validation: Data validation success in :: citric acid]
+[2025-02-11 00:08:06,075: INFO: data_validation: Data validation success in :: residual sugar]
+[2025-02-11 00:08:06,076: INFO: data_validation: Data validation success in :: chlorides]
+[2025-02-11 00:08:06,076: INFO: data_validation: Data validation success in :: free sulfur dioxide]
+[2025-02-11 00:08:06,076: INFO: data_validation: Data validation success in :: total sulfur dioxide]
+[2025-02-11 00:08:06,076: INFO: data_validation: Data validation success in :: density]
+[2025-02-11 00:08:06,076: INFO: data_validation: Data validation success in :: pH]
+[2025-02-11 00:08:06,076: INFO: data_validation: Data validation success in :: sulphates]
+[2025-02-11 00:08:06,077: INFO: data_validation: Data validation success in :: alcohol]
+[2025-02-11 00:08:06,077: INFO: data_validation: Data validation success in :: quality]
+[2025-02-11 00:08:06,179: INFO: main: >>>>>>>>> Stage 02: Data Validation completed <<<<<<<<<]
+[2025-02-11 00:08:06,179: INFO: main: >>>>>>>>> Stage 03: Data Transformation started <<<<<<<<<]
+[2025-02-11 00:08:06,184: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-11 00:08:06,185: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-11 00:08:06,190: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-11 00:08:06,191: INFO: common: Directory created at :: artifacts]
+[2025-02-11 00:08:06,191: INFO: common: Directory created at :: artifacts/data_transformation]
+[2025-02-11 00:08:06,443: INFO: data_transformation: Splied data into traing and test sets]
+[2025-02-11 00:08:06,443: INFO: data_transformation: (1199, 12)]
+[2025-02-11 00:08:06,443: INFO: data_transformation: (400, 12)]
+[2025-02-11 00:08:06,444: INFO: main: >>>>>>>>> Stage 03: Data Transformation completed <<<<<<<<<]
+[2025-02-11 00:08:06,444: INFO: main: >>>>>>>>> Stage 04: Model Trainer started <<<<<<<<<]
+[2025-02-11 00:08:06,449: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-11 00:08:06,450: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-11 00:08:06,453: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-11 00:08:06,454: INFO: common: Directory created at :: artifacts]
+[2025-02-11 00:08:06,454: INFO: common: Directory created at :: artifacts/model_trainer]
+[2025-02-11 00:08:06,472: INFO: model_trainer: Model trained with alpha: 0.2 and l1_ratio: 0.5]
+[2025-02-11 00:08:06,579: INFO: model_trainer: Model saved at: artifacts/model_trainer/model.joblib]
+[2025-02-11 00:08:06,579: INFO: main: >>>>>>>>> Stage 04: Model Trainer completed <<<<<<<<<]
