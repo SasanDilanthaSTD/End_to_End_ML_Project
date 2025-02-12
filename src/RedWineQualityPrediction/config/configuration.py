@@ -1,5 +1,5 @@
 from RedWineQualityPrediction.constanst import *
-from RedWineQualityPrediction.entity.config_entity import DataIngstionConfig, DataTransformationConfig, DataValidationConfig, ModelTrainerConfig
+from RedWineQualityPrediction.entity.config_entity import DataIngstionConfig, DataTransformationConfig, DataValidationConfig, ModelEvaluationConfig, ModelTrainerConfig
 from RedWineQualityPrediction.utils.common import read_yaml, create_derectories
 
 class ConfigurationManager:
@@ -66,5 +66,21 @@ class ConfigurationManager:
             model_name=config.model_name,
             alpha=params.alpha,
             l1_ratio=params.l1_ratio,
-            target_column=schema.keys()
+            target_column=schema.name
+        )
+        
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET_COLUMN
+        
+        create_derectories([config.root_dir])
+        
+        return ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            test_data_path=config.test_data_path,
+            model_path=config.model_path,
+            all_params=params,
+            evaluation_metrics_file=config.evaluation_metrics_file,
+            target_column=schema.name
         )

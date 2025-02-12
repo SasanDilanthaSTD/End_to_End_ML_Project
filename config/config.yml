@@ -26,4 +26,10 @@ model_trainer:
   test_data_path: artifacts/data_transformation/test.csv
   model_name: model.joblib
 
-  
+
+# model evaluation related config
+model_evaluation:
+  root_dir: artifacts/model_evaluation
+  test_data_path: artifacts/data_transformation/test.csv
+  model_path: artifacts/model_trainer/model.joblib
+  evaluation_metrics_file: artifacts/model_evaluation/evaluation_metrics.json

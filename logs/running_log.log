@@ -298,3 +298,171 @@ Source-Age: 0
 [2025-02-11 00:08:06,472: INFO: model_trainer: Model trained with alpha: 0.2 and l1_ratio: 0.5]
 [2025-02-11 00:08:06,579: INFO: model_trainer: Model saved at: artifacts/model_trainer/model.joblib]
 [2025-02-11 00:08:06,579: INFO: main: >>>>>>>>> Stage 04: Model Trainer completed <<<<<<<<<]
+[2025-02-12 15:42:46,960: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 15:42:46,965: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 15:42:46,971: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 15:42:46,974: INFO: common: Directory created at :: artifacts]
+[2025-02-12 15:42:46,975: INFO: common: Directory created at :: artifacts/model_trainer]
+[2025-02-12 15:44:24,239: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 15:44:24,244: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 15:44:24,250: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 15:44:24,252: INFO: common: Directory created at :: artifacts]
+[2025-02-12 15:44:24,254: INFO: common: Directory created at :: artifacts/model_trainer]
+[2025-02-12 15:49:05,472: INFO: main: >>>>>>>>> Stage 01: Data Ingestion started <<<<<<<<<]
+[2025-02-12 15:49:05,478: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 15:49:05,480: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 15:49:05,483: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 15:49:05,484: INFO: common: Directory created at :: artifacts]
+[2025-02-12 15:49:05,485: INFO: common: Directory created at :: artifacts/data_ingestion]
+[2025-02-12 15:49:06,950: INFO: data_ingestion: Downloaded file: artifacts/data_ingestion/data.zip with folowing infor: 
+ Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CE91:16AA52:81BCF2:878243:67AC7599
+Accept-Ranges: bytes
+Date: Wed, 12 Feb 2025 10:19:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsss1830029-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1739355546.316672,VS0,VE442
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 61a42186f25fa2ea74a4cda70de266819718bc42
+Expires: Wed, 12 Feb 2025 10:24:06 GMT
+Source-Age: 0
+
+]
+[2025-02-12 15:49:07,059: INFO: main: >>>>>>>>> Stage 01: Data Ingestion completed <<<<<<<<<]
+[2025-02-12 15:49:07,059: INFO: main: >>>>>>>>> Stage 02: Data Validation started <<<<<<<<<]
+[2025-02-12 15:49:07,066: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 15:49:07,069: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 15:49:07,075: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 15:49:07,075: INFO: common: Directory created at :: artifacts]
+[2025-02-12 15:49:07,076: INFO: common: Directory created at :: artifacts/data_validation]
+[2025-02-12 15:49:07,089: INFO: data_validation: Data validation success in :: fixed acidity]
+[2025-02-12 15:49:07,090: INFO: data_validation: Data validation success in :: volatile acidity]
+[2025-02-12 15:49:07,090: INFO: data_validation: Data validation success in :: citric acid]
+[2025-02-12 15:49:07,090: INFO: data_validation: Data validation success in :: residual sugar]
+[2025-02-12 15:49:07,090: INFO: data_validation: Data validation success in :: chlorides]
+[2025-02-12 15:49:07,091: INFO: data_validation: Data validation success in :: free sulfur dioxide]
+[2025-02-12 15:49:07,091: INFO: data_validation: Data validation success in :: total sulfur dioxide]
+[2025-02-12 15:49:07,091: INFO: data_validation: Data validation success in :: density]
+[2025-02-12 15:49:07,091: INFO: data_validation: Data validation success in :: pH]
+[2025-02-12 15:49:07,091: INFO: data_validation: Data validation success in :: sulphates]
+[2025-02-12 15:49:07,092: INFO: data_validation: Data validation success in :: alcohol]
+[2025-02-12 15:49:07,092: INFO: data_validation: Data validation success in :: quality]
+[2025-02-12 15:49:07,195: INFO: main: >>>>>>>>> Stage 02: Data Validation completed <<<<<<<<<]
+[2025-02-12 15:49:07,196: INFO: main: >>>>>>>>> Stage 03: Data Transformation started <<<<<<<<<]
+[2025-02-12 15:49:07,202: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 15:49:07,204: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 15:49:07,210: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 15:49:07,211: INFO: common: Directory created at :: artifacts]
+[2025-02-12 15:49:07,212: INFO: common: Directory created at :: artifacts/data_transformation]
+[2025-02-12 15:49:07,475: INFO: data_transformation: Splied data into traing and test sets]
+[2025-02-12 15:49:07,476: INFO: data_transformation: (1199, 12)]
+[2025-02-12 15:49:07,476: INFO: data_transformation: (400, 12)]
+[2025-02-12 15:49:07,476: INFO: main: >>>>>>>>> Stage 03: Data Transformation completed <<<<<<<<<]
+[2025-02-12 15:49:07,476: INFO: main: >>>>>>>>> Stage 04: Model Trainer started <<<<<<<<<]
+[2025-02-12 15:49:07,482: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 15:49:07,485: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 15:49:07,490: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 15:49:07,491: INFO: common: Directory created at :: artifacts]
+[2025-02-12 15:49:07,491: INFO: common: Directory created at :: artifacts/model_trainer]
+[2025-02-12 15:49:07,512: INFO: model_trainer: Model trained with alpha: 0.2 and l1_ratio: 0.5]
+[2025-02-12 15:49:07,619: INFO: model_trainer: Model saved at: artifacts/model_trainer/model.joblib]
+[2025-02-12 15:49:07,619: INFO: main: >>>>>>>>> Stage 04: Model Trainer completed <<<<<<<<<]
+[2025-02-12 16:27:29,276: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 16:27:29,279: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 16:27:29,285: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 16:27:29,287: INFO: common: Directory created at :: artifacts]
+[2025-02-12 16:27:29,289: INFO: common: Directory created at :: artifacts/model_evaluation]
+[2025-02-12 16:27:29,419: INFO: common: Data saved in json format at :: artifacts/model_evaluation/evaluation_metrics.json]
+[2025-02-12 16:44:42,788: INFO: main: >>>>>>>>> Stage 01: Data Ingestion started <<<<<<<<<]
+[2025-02-12 16:44:42,795: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 16:44:42,796: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 16:44:42,800: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 16:44:42,801: INFO: common: Directory created at :: artifacts]
+[2025-02-12 16:44:42,801: INFO: common: Directory created at :: artifacts/data_ingestion]
+[2025-02-12 16:44:49,342: INFO: data_ingestion: Downloaded file: artifacts/data_ingestion/data.zip with folowing infor: 
+ Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CE91:16AA52:81BCF2:878243:67AC7599
+Accept-Ranges: bytes
+Date: Wed, 12 Feb 2025 11:14:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsss1830033-SIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1739358889.780027,VS0,VE358
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2f55b68916b2379e58c58caa01c11da5809f4a60
+Expires: Wed, 12 Feb 2025 11:19:49 GMT
+Source-Age: 0
+
+]
+[2025-02-12 16:44:49,452: INFO: main: >>>>>>>>> Stage 01: Data Ingestion completed <<<<<<<<<]
+[2025-02-12 16:44:49,452: INFO: main: >>>>>>>>> Stage 02: Data Validation started <<<<<<<<<]
+[2025-02-12 16:44:49,458: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 16:44:49,460: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 16:44:49,463: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 16:44:49,463: INFO: common: Directory created at :: artifacts]
+[2025-02-12 16:44:49,464: INFO: common: Directory created at :: artifacts/data_validation]
+[2025-02-12 16:44:49,473: INFO: data_validation: Data validation success in :: fixed acidity]
+[2025-02-12 16:44:49,474: INFO: data_validation: Data validation success in :: volatile acidity]
+[2025-02-12 16:44:49,474: INFO: data_validation: Data validation success in :: citric acid]
+[2025-02-12 16:44:49,474: INFO: data_validation: Data validation success in :: residual sugar]
+[2025-02-12 16:44:49,474: INFO: data_validation: Data validation success in :: chlorides]
+[2025-02-12 16:44:49,474: INFO: data_validation: Data validation success in :: free sulfur dioxide]
+[2025-02-12 16:44:49,475: INFO: data_validation: Data validation success in :: total sulfur dioxide]
+[2025-02-12 16:44:49,475: INFO: data_validation: Data validation success in :: density]
+[2025-02-12 16:44:49,475: INFO: data_validation: Data validation success in :: pH]
+[2025-02-12 16:44:49,475: INFO: data_validation: Data validation success in :: sulphates]
+[2025-02-12 16:44:49,475: INFO: data_validation: Data validation success in :: alcohol]
+[2025-02-12 16:44:49,476: INFO: data_validation: Data validation success in :: quality]
+[2025-02-12 16:44:49,579: INFO: main: >>>>>>>>> Stage 02: Data Validation completed <<<<<<<<<]
+[2025-02-12 16:44:49,580: INFO: main: >>>>>>>>> Stage 03: Data Transformation started <<<<<<<<<]
+[2025-02-12 16:44:49,586: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 16:44:49,588: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 16:44:49,591: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 16:44:49,591: INFO: common: Directory created at :: artifacts]
+[2025-02-12 16:44:49,592: INFO: common: Directory created at :: artifacts/data_transformation]
+[2025-02-12 16:44:49,843: INFO: data_transformation: Splied data into traing and test sets]
+[2025-02-12 16:44:49,844: INFO: data_transformation: (1199, 12)]
+[2025-02-12 16:44:49,844: INFO: data_transformation: (400, 12)]
+[2025-02-12 16:44:49,844: INFO: main: >>>>>>>>> Stage 03: Data Transformation completed <<<<<<<<<]
+[2025-02-12 16:44:49,844: INFO: main: >>>>>>>>> Stage 04: Model Trainer started <<<<<<<<<]
+[2025-02-12 16:44:49,850: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 16:44:49,852: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 16:44:49,855: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 16:44:49,856: INFO: common: Directory created at :: artifacts]
+[2025-02-12 16:44:49,856: INFO: common: Directory created at :: artifacts/model_trainer]
+[2025-02-12 16:44:49,874: INFO: model_trainer: Model trained with alpha: 0.2 and l1_ratio: 0.5]
+[2025-02-12 16:44:49,979: INFO: model_trainer: Model saved at: artifacts/model_trainer/model.joblib]
+[2025-02-12 16:44:49,980: INFO: main: >>>>>>>>> Stage 04: Model Trainer completed <<<<<<<<<]
+[2025-02-12 16:44:49,980: INFO: main: >>>>>>>>> Stage 05: Model Evaluation started <<<<<<<<<]
+[2025-02-12 16:44:49,985: INFO: common: Reading the yaml file from ::     config/config.yml]
+[2025-02-12 16:44:49,986: INFO: common: Reading the yaml file from ::     params.yml]
+[2025-02-12 16:44:49,989: INFO: common: Reading the yaml file from ::     schema.yml]
+[2025-02-12 16:44:49,990: INFO: common: Directory created at :: artifacts]
+[2025-02-12 16:44:49,990: INFO: common: Directory created at :: artifacts/model_evaluation]
+[2025-02-12 16:44:50,107: INFO: common: Data saved in json format at :: artifacts/model_evaluation/evaluation_metrics.json]
+[2025-02-12 16:44:50,108: INFO: main: >>>>>>>>> Stage 05: Model Evaluation completed <<<<<<<<<]
