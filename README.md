@@ -41,3 +41,9 @@ pip install -r requirements.txt
 ```bash
 https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/data
 ```
+
+##### Next, compleinting data ingestion, data validation, data transformation, model training and model evaluation stages and also related pipelines create user UIs. After that modify ```app.py``` and run it
+
+```bash
+python app.py
+```
